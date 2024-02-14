@@ -1,0 +1,26 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: wheat;
+    overflow: hidden;
+    
+}
+li{
+    float: right;
+}
+li:hover{
+    background-color: black;
+    color: white;
+}
+li{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 16px;
+
+}
+.paragraph{
+    padding-top: 0;
+
+}

@@ -1,0 +1,13 @@
+.city{
+    background-color: tomato;
+    padding: 10px;
+}
+#pass{
+    background-color: wheat;
+}
+#burden{
+    font-family: cursive;
+}
+.price{
+    font-family: 'Courier New', Courier, monospace;
+}

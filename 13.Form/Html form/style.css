@@ -1,0 +1,15 @@
+input{
+    background-color: rgb(194, 209, 199);
+    width: 40%;
+    padding: 10px;
+    border-color: rgb(25, 15, 15);
+    margin-left: -250px;
+}
+.fname{
+    color: aqua;
+    background-color: red;
+}
+label{
+    margin-left: -280px; font-size: x-large;
+    color: blueviolet;
+}

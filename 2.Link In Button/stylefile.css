@@ -1,0 +1,76 @@
+
+p {
+   
+    font-family: 'Courier New';
+    font-size: 200%;
+    color: black;
+ }
+body 
+  {
+    background-color: #ffffff;
+  }
+h1{
+   font-family: verdana;
+   font-size: 100%;
+   color: rgb(255, 0, 0);
+  }
+
+h2 {
+ 
+   color: rgb(26, 255, 0);
+   border: 3px solid rgb(3, 20, 23);
+   margin-top : 5%;
+ 
+ }
+
+ .b button{
+     font-family: cursive;
+     color: red;
+ }
+
+.Arnob a:active, a:hover {
+  color: black;
+  background-color: yellow;
+
+}
+
+.ark a:link, a:visited {
+  color: rgb(24, 221, 17);
+  background-color: rgb(217, 214, 220);
+}
+
+.bt button
+{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: red;
+  background-color: black;
+  padding: 30px 40px;
+}
+
+.bt 
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+}
+
+
+/* .Arnob a:visited, a:link{
+     color: rgb(0, 255, 85);
+     background-color: transparent;
+} */
+
+table{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+tr{
+  border-bottom: 1px solid black;
+  
+}
+tr:hover{
+  background-color: yellow;
+}

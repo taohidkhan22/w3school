@@ -1,0 +1,40 @@
+.center {
+    display: block;
+    text-align: center;
+    justify-content: center;
+
+  }
+
+
+  .taohid{
+    /* display: flex;
+    text-align: center;
+    justify-content: center;
+     */
+     
+     /* display: grid;
+     place-items: center; */
+
+     display: block;
+     margin: 0 auto;
+     height: 10%;
+     width: 40%;
+     size-adjust:0 ;
+     float: right;
+  }
+  .paragraph{
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+    color: rgb(23, 23, 15);
+    
+  }
+  table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+  }
+  table{
+    width: 100%;
+    text-align: center;
+  }

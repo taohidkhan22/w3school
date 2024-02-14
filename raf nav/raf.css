@@ -1,0 +1,27 @@
+nav{
+   
+    background-color: rgb(243, 225, 195);
+    padding: 17px;
+    font-size: 20px;
+    overflow: hidden;
+}
+.c{
+    float: right;
+    
+}
+body{
+    margin: 0px;
+}
+a{
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+    font-family:Arial, sans-serif;
+
+}
+a:hover{
+    color: aliceblue;
+
+}

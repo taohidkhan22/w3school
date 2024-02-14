@@ -1,0 +1,39 @@
+.a {
+    background-color:#FFF4A3;
+  
+   
+}
+.Rome{
+    background-color: #D9EEE1;
+   
+
+} 
+.Oslo{
+    background-color:#FFC0C7 ;
+
+}
+.float div
+{
+    float: left;
+    width: 33.3%;
+    overflow: visible;
+}
+
+ /* .float{
+    display: flex;
+   
+   
+ }
+
+ .float div{
+    width: 33.3%;
+} 
+   */
+/*
+.float{
+    display: grid;
+    grid-template-columns: 30.3% 30.3% 30.3%;
+} */
+
+
+
