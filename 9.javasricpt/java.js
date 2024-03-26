@@ -4,7 +4,10 @@ function Dateandtime(){
     document.getElementById("Date").style.color="red";
     document.getElementById("Date").style.backgroundColor="wheat";
 }
-
+function1()
+{
+   document.getElementById('demo').innerHTML='de';
+}
 
 function light(s){
     var x;
