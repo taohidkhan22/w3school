@@ -1,12 +1,21 @@
+//THis
+"use strict";
+let person={
+  firstName:"taohid",
+  lastName:"Khan",
+  fullName: function(){
+     return this.firstName+ "  " + this.lastName;
+  }
+   
+}
 
-const person = {
-    firstName: "John",
-    lastName : "Doe",
-    id       : 5566,
-    fullName : function() {
-      return person.firstName + " " + person.lastName;
-    }
-  };
-document.getElementById('demo').innerHTML=person.fullName();
-document.getElementById('demo1').innerHTML= person["firstName"]+ " "+ person["id"];
 console.log(person.fullName());
+let x=this;
+console.log(x);
+
+function myFunction() {
+  return this;
+}
+
+let y=myFunction();
+console.log(y);
