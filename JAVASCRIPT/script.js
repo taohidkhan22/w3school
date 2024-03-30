@@ -1,21 +1,32 @@
-//THis
-"use strict";
-let person={
-  firstName:"taohid",
-  lastName:"Khan",
-  fullName: function(){
-     return this.firstName+ "  " + this.lastName;
-  }
-   
+// Arrow function
+
+let myFunction= (a,b)=> a+b;
+console.log(myFunction(4,5));
+console.log(typeof(myFunction));
+
+hello =(v) => "Hello,  "+ v;
+
+document.getElementById('demo').innerHTML=hello("Parallel Universe!");
+console.log(typeof(hello));
+
+
+hello=()=>{
+    document.getElementById('').innerHTML+=this;
 }
 
-console.log(person.fullName());
-let x=this;
-console.log(x);
+window.addEventListener("load", hello);
 
-function myFunction() {
-  return this;
+
+console.log(typeof(hello));
+
+document.getElementById('btn').addEventListener("click",hello);
+
+const person={
+    firstName:"taohid",
+    lastName: "kahn",
+    fullName: ()=>{//you are getting error because this refers to the global context not the person object 
+                   // to solve this, avoid arrow function
+        return this.firstName + "    "+this.lastName;
+    }
 }
-
-let y=myFunction();
-console.log(y);
+document.getElementById('demo').innerHTML= perfullName();
