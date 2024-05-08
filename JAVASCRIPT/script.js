@@ -11,7 +11,7 @@ console.log(typeof(hello));
 
 
 hello=()=>{
-    document.getElementById('').innerHTML+=this;
+    document.getElementById('demo').innerHTML+=this;
 }
 
 window.addEventListener("load", hello);
