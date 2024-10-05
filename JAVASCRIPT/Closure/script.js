@@ -1,8 +1,11 @@
-function x(){
-    var a=10;
-    function y(){
-        console.log(a);
-    }
-    y();
+function x() {
+  var a = 39;
+
+  return function y() {
+    console.log(a);
+  };
 }
-x();
+
+var z = x();
+console.log(z);
+z();
