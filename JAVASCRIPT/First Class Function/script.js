@@ -1,6 +1,7 @@
 
 //Function statement{hoisting problem becasue when c invoke it sotred as value undefined}
-
+a();
+c();
 function a(){
     console.log("funciton a");
 }
